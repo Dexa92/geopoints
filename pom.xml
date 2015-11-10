@@ -16,7 +16,14 @@
 		<spring.version>3.2.5.RELEASE</spring.version>
 		<ubcore.version>0.3.0</ubcore.version>
     </properties>
-
+	
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+	</dependencies>
     <build>
         <finalName>geopoints</finalName>
         <resources>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="geopoints:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="geopoints.war">
+      <element id="artifact" artifact-name="geopoints:war exploded" />
+    </root>
+  </artifact>
+</component>
