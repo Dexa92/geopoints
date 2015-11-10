@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <!--CLIENT-->
+
+    <definition name="com.ub.geopoints.tracks.all" extends="com.ub.geopoints.layout">
+        <put-attribute name="content" value="/WEB-INF/com/ub/geopoints/tracks/all.jsp"/>
+    </definition>
+
+    <definition name="com.ub.geopoints.tracks.view" extends="com.ub.geopoints.layout">
+        <put-attribute name="content" value="/WEB-INF/com/ub/geopoints/tracks/view.jsp"/>
+    </definition>
+
+</tiles-definitions>
